@@ -47,9 +47,13 @@ $ npm run build
 
 ## Run Test
 
-- npm run test
-- test <Button> component if render text and fire on click event
-- test getTotalNights function
+```sh
+$ npm run test
+
+```
+### Tests includes
+- test "Button" component if render text and fire on click event
+- test "getTotalNights" function
 
 ### Folder Structure
 ```
