@@ -6,7 +6,7 @@ function HotelCard({ hotel, totalNights, currency = 'AED' }) {
   return (
     <div className={styles.card}>
       <div><b>Name:</b> <span>{hotel.name}</span></div>
-      <div><b>Price:</b> <span>{price} {currency}</span></div>
+      <div><b>Price:</b> <span data-testid="hotel-price">{price} {currency}</span></div>
       <div><b>City:</b> <span className='capitalize'>{hotel.city}</span></div>
     </div>
   );

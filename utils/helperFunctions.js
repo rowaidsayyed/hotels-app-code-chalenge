@@ -16,13 +16,14 @@ export const filterHotelsByDate = (list, from, to) => {
   return hotels;
 };
 
-export const getSortedHotels = (sortBy = 'name', list) => {
+export const getSortedList = (list, sortBy = 'name', asc = true) => {
+  const ascValue = asc ? 1 : -1;
   const compare = (firstItem, secondItem) => {
     if (firstItem[sortBy] > secondItem[sortBy]) {
-      return 1;
+      return ascValue;
     }
     if (secondItem[sortBy] > firstItem[sortBy]) {
-      return -1;
+      return ascValue * -1;
     }
     return 0;
   };

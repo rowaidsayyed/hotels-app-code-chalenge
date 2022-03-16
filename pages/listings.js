@@ -9,7 +9,7 @@ import {
   filterByName,
   filterByPrice,
   getTotalNights,
-  getSortedHotels,
+  getSortedList,
   filterHotelsByDate,
 } from '@/utils/helperFunctions';
 
@@ -36,7 +36,7 @@ function HotelsList({ hotels }) {
   );
 
   const sortHotels = useMemo(
-    () => getSortedHotels(sortBy, filteredByPrice),
+    () => getSortedList(filteredByPrice, sortBy),
     [sortBy, filteredByPrice, filteredByName]
   );
 
