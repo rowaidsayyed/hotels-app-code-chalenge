@@ -16,7 +16,7 @@ git clone https://github.com/rowaidsayyed/hotels-app-code-chalenge.git
 ### Install dependencies
 
 ```sh
-$ npm install
+npm install
 ```
 
 ### Run development
@@ -27,7 +27,7 @@ npm run dev
 
 #### npm
 ```sh
-$ npm run build
+npm run build
 
 ```
 ## Requirements and Output
@@ -48,7 +48,7 @@ $ npm run build
 ## Run Test
 
 ```sh
-$ npm run test
+npm run test
 
 ```
 ### Tests includes
