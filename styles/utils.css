@@ -2,7 +2,7 @@
   display: flex;
 }
 
-.col, .col-p {
+.col {
   flex-direction: column;
 }
 
@@ -64,7 +64,10 @@
 
 
 @media (min-width: 600px) {
-  .col-p {
+  .md-row {
     flex-direction: row;
+  }
+  .md-pa-3 {
+    padding: 30px;
   }
 }

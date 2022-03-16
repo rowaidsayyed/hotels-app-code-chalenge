@@ -42,8 +42,8 @@ function HotelsList({ hotels }) {
 
   return (
     <div>
-      <div className='d-flex flex-justify-between col-p'>
-        <div className='pa-3 mr-5'>
+      <div className='d-flex flex-justify-between col md-row'>
+        <div className='md-pa-3 mr-5 mb-3'>
           <div className='mb-3'>
             <InputField
               value={searchName}
@@ -67,7 +67,7 @@ function HotelsList({ hotels }) {
           </div>
         </div>
         <div className='w-100'>
-          <div className='d-flex flex-justify-between col-p'>
+          <div className='d-flex flex-justify-between col md-row'>
             <span className='mb-2'>
               <span>Total Nights: </span>
               <span>{numberOfNights}</span>

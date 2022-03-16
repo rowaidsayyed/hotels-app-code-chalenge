@@ -49,7 +49,7 @@ function Home() {
         <h1>Hotels App</h1>
         <p>Please Choose Date</p>
       </div>
-      <div className="d-flex flex-justify-evenly flex-align-center col-p">
+      <div className="d-flex flex-justify-evenly flex-align-center col md-row">
         <div className='mb-3'>
           <div className='mb-2'>From:</div>
           <InputField
