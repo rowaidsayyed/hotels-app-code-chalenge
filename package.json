@@ -1,0 +1,39 @@
+{
+  "name": "hotels-app-code-chalenge",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "test": "jest --watch",
+    "test:ci": "jest --ci"
+  },
+  "keywords": [
+    "hotels",
+    "nextjs",
+    "jest"
+  ],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rowaidsayyed/hotels-app-code-chalenge/issues"
+  },
+  "homepage": "https://github.com/rowaidsayyed/hotels-app-code-chalenge#readme",
+  "dependencies": {
+    "axios": "^0.26.1",
+    "next": "12.1.0",
+    "react": "17.0.2",
+    "react-dom": "17.0.2"
+  },
+  "devDependencies": {
+    "eslint": "8.11.0",
+    "eslint-config-next": "12.1.0",
+    "eslint-plugin-testing-library": "5.0.1",
+    "@testing-library/jest-dom": "5.16.1",
+    "@testing-library/react": "12.1.2",
+    "jest": "27.4.5"
+  }
+}
