@@ -1,4 +1,4 @@
-import { getTotalNights } from '../utils/helperFunctions';
+import { getTotalNights } from '../utils/helperFunctions.js';
 
 describe('Helpers Functions', () => {
   it('getTotalNights', () => {
