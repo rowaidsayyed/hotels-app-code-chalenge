@@ -13,6 +13,9 @@ You need [NodeJs](https://nodejs.org/en/download/) & [NPM](https://www.npmjs.com
 ```  
 git clone https://github.com/rowaidsayyed/hotels-app-code-chalenge.git
 ```
+```  
+cd hotels-app-code-chalenge
+```
 ### Install dependencies
 
 ```sh
