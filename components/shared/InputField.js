@@ -3,7 +3,8 @@ import React from "react";
 const InputField = ({ 
     type = 'text', 
     value, 
-    name, 
+    name,
+    ariaLabel,
     placeholder, 
     classes='', 
     errorText, 
@@ -16,6 +17,7 @@ const InputField = ({
         type={type}
         value={value}
         name={name}
+        aria-label={ariaLabel}
         className={classes}
         placeholder={placeholder}
         onChange={onChange}

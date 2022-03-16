@@ -58,6 +58,7 @@ function HotelsList({ hotels }) {
             <RangeInput
               value={searchPrice}
               name="priceFilter"
+              ariaLabel="price Filter"
               min={numberOfNights}
               max={330 * numberOfNights}
               step={10}

@@ -1,6 +1,6 @@
 import React from "react";
 
-const RangeInput = ({ id, value, name, classes, min, max, step, onChange }) => { 
+const RangeInput = ({ id, value, name, ariaLabel, classes, min, max, step, onChange }) => { 
 
   return (
     <input 
@@ -8,6 +8,7 @@ const RangeInput = ({ id, value, name, classes, min, max, step, onChange }) => {
       id={id}
       value={value}
       name={name}
+      ariaLabel={ariaLabel}
       min={min}
       max={max}
       step={step}

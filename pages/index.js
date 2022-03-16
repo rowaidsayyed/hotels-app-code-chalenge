@@ -54,6 +54,7 @@ function Home() {
           <div className='mb-2'>From:</div>
           <InputField
             data-testid="from-input"
+            ariaLabel="From"
             type="date"
             name="fromDate"
             errorText={errors['fromDate']}
@@ -64,6 +65,7 @@ function Home() {
           <div className='mb-2'>TO: </div>
           <InputField 
             type="date"
+            ariaLabel="to"
             name="toDate"
             errorText={errors['toDate']}
             onChange={({ target }) => setToDate(target.value)} 
