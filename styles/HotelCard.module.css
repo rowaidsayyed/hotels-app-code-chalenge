@@ -1,0 +1,9 @@
+.card {
+  border: 1px solid;
+  width: 48%;
+  padding: 12px;
+  margin-block: 10px;
+}
+.card div {
+  width:100%;
+}
