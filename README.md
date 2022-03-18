@@ -57,6 +57,8 @@ npm run test
 ### Tests includes
 - test "Button" component if render text and fire on click event
 - test "getTotalNights" function
+- test "getSortedList" function
+- test "HotelCard" component if render hotel name and price
 
 ### Folder Structure
 ```

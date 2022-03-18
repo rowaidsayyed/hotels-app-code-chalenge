@@ -1,4 +1,4 @@
-import { render, screen, fireEvent } from '@testing-library/react';
+import { render } from '@testing-library/react';
 import HotelCard from '@/components/hotelCard/HotelCard.js';
 
 describe('Hotel Card Component', () => {
@@ -15,12 +15,4 @@ describe('Hotel Card Component', () => {
     expect(hotelName).toHaveTextContent(hotel.name);
     expect(hotelPrice).toHaveTextContent(hotel.price * totalNights);
   });
-
-  // it('fire on click event', () => {
-  //   const onClick = jest.fn();
-  //   const text = "test 2";
-  //   const { getByText } = render(<Button text={text} onClick={onClick}/>)
-  //   fireEvent.click(getByText(text));
-  //   expect(onClick).toHaveBeenCalled();
-  // });
 });
