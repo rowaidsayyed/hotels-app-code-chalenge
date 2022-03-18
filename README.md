@@ -1,7 +1,7 @@
-# Hotels App Code Chalenge
+# Hotels App Code Challenge
 
 ## Live Demo
-[Hotels App Code Chalenge](https://hotels-app-code-chalenge.vercel.app/)
+[Hotels App Code Challenge](https://hotels-app-code-chalenge.vercel.app/)
 ## 🔨 Requirement
 
 You need [NodeJs](https://nodejs.org/en/download/) & [NPM](https://www.npmjs.com/) installed on your computer
@@ -11,10 +11,10 @@ You need [NodeJs](https://nodejs.org/en/download/) & [NPM](https://www.npmjs.com
 
 ### Clone the repositry
 ```  
-git clone https://github.com/rowaidsayyed/hotels-app-code-chalenge.git
+git clone https://github.com/rowaidsayyed/hotels-app-code-challenge.git
 ```
 ```  
-cd hotels-app-code-chalenge
+cd hotels-app-code-challenge
 ```
 ### Install dependencies
 
