@@ -2,7 +2,7 @@ import React, { useMemo } from 'react';
 import styles from '@/styles/HotelCard.module.css';
 
 function HotelCard({ hotel, totalNights, currency = 'AED' }) {
-  const price = useMemo(()=> hotel.price * totalNights,[totalNights]);
+  const price = useMemo(()=> hotel.price * totalNights,[hotel.price,totalNights]);
   return (
     <div className={styles.card}>
       <div><b>Name:</b> <span>{hotel.name}</span></div>
